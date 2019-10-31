@@ -1,0 +1,8 @@
+L:\Labs\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.csprojAssemblyReference.cache
+L:\Labs\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.AssemblyInfoInputs.cache
+L:\Labs\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.AssemblyInfo.cs
+L:\Labs\ForumZ\ForumZ\ForumZ.Domain\bin\Debug\netcoreapp3.0\ForumZ.Domain.deps.json
+L:\Labs\ForumZ\ForumZ\ForumZ.Domain\bin\Debug\netcoreapp3.0\ForumZ.Domain.dll
+L:\Labs\ForumZ\ForumZ\ForumZ.Domain\bin\Debug\netcoreapp3.0\ForumZ.Domain.pdb
+L:\Labs\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.dll
+L:\Labs\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.pdb

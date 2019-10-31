@@ -1,0 +1,13 @@
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\bin\Debug\netcoreapp3.0\ForumZ.Infraestructure.deps.json
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\bin\Debug\netcoreapp3.0\ForumZ.Infraestructure.dll
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infraestructure.csprojAssemblyReference.cache
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infraestructure.AssemblyInfoInputs.cache
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infraestructure.AssemblyInfo.cs
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\bin\Debug\netcoreapp3.0\ForumZ.Domain.dll
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\bin\Debug\netcoreapp3.0\ForumZ.Infraestructure.pdb
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\bin\Debug\netcoreapp3.0\ForumZ.Domain.pdb
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infraestructure.csproj.CopyComplete
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infraestructure.dll
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infraestructure.pdb
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\bin\Debug\netcoreapp3.0\ForumZ.Infraestructure.runtimeconfig.json
+L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\bin\Debug\netcoreapp3.0\ForumZ.Infraestructure.runtimeconfig.dev.json

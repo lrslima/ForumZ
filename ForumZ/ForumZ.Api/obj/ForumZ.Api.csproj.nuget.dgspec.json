@@ -1,42 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Api\\ForumZ.Api.csproj": {}
+    "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Api\\ForumZ.Api.csproj": {}
   },
   "projects": {
-    "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Api\\ForumZ.Api.csproj": {
+    "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Api\\ForumZ.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Api\\ForumZ.Api.csproj",
+        "projectUniqueName": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Api\\ForumZ.Api.csproj",
         "projectName": "ForumZ.Api",
-        "projectPath": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Api\\ForumZ.Api.csproj",
-        "packagesPath": "C:\\Users\\lslima\\.nuget\\packages\\",
-        "outputPath": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Api\\obj\\",
+        "projectPath": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Api\\ForumZ.Api.csproj",
+        "packagesPath": "C:\\Users\\Barbara\\.nuget\\packages\\",
+        "outputPath": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lslima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Barbara\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://tfs.viajanet.com.br/tfs/ViajaNet/_packaging/Viajanet.Applications/nuget/v3/index.json": {},
-          "https://tfs.viajanet.com.br/tfs/ViajaNet/_packaging/Viajanet/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj": {
-                "projectPath": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj"
+              "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj": {
+                "projectPath": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj"
               },
-              "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\ForumZ.Infraestructure.csproj": {
-                "projectPath": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\ForumZ.Infraestructure.csproj"
+              "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\ForumZ.Infraestructure.csproj": {
+                "projectPath": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\ForumZ.Infraestructure.csproj"
               }
             }
           }
@@ -48,7 +44,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -58,17 +55,57 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.8, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -76,7 +113,19 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             }
           },
           "imports": [
@@ -97,37 +146,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj": {
+    "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj",
+        "projectUniqueName": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj",
         "projectName": "ForumZ.Domain",
-        "projectPath": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj",
-        "packagesPath": "C:\\Users\\lslima\\.nuget\\packages\\",
-        "outputPath": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Domain\\obj\\",
+        "projectPath": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj",
+        "packagesPath": "C:\\Users\\Barbara\\.nuget\\packages\\",
+        "outputPath": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lslima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Barbara\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://tfs.viajanet.com.br/tfs/ViajaNet/_packaging/Viajanet.Applications/nuget/v3/index.json": {},
-          "https://tfs.viajanet.com.br/tfs/ViajaNet/_packaging/Viajanet/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -138,7 +183,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -154,40 +200,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\ForumZ.Infraestructure.csproj": {
+    "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\ForumZ.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\ForumZ.Infraestructure.csproj",
+        "projectUniqueName": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\ForumZ.Infraestructure.csproj",
         "projectName": "ForumZ.Infraestructure",
-        "projectPath": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\ForumZ.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\lslima\\.nuget\\packages\\",
-        "outputPath": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\obj\\",
+        "projectPath": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\ForumZ.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Barbara\\.nuget\\packages\\",
+        "outputPath": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lslima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Barbara\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://tfs.viajanet.com.br/tfs/ViajaNet/_packaging/Viajanet.Applications/nuget/v3/index.json": {},
-          "https://tfs.viajanet.com.br/tfs/ViajaNet/_packaging/Viajanet/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj": {
-                "projectPath": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj"
+              "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj": {
+                "projectPath": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj"
               }
             }
           }
@@ -199,21 +241,30 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -223,7 +274,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.8, )"
             }
           },
           "imports": [
@@ -241,7 +292,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

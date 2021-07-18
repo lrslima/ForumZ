@@ -1,12 +1,10 @@
 ﻿using ForumZ.Domain.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ForumZ.Infraestructure.Context
 {
-    public class MyDbContext : DbContext
+    public class MyDbContext : IdentityDbContext
     {
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
 

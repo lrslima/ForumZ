@@ -6,3 +6,12 @@ L:\Labs\ForumZ\ForumZ\ForumZ.Domain\bin\Debug\netcoreapp3.0\ForumZ.Domain.dll
 L:\Labs\ForumZ\ForumZ\ForumZ.Domain\bin\Debug\netcoreapp3.0\ForumZ.Domain.pdb
 L:\Labs\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.dll
 L:\Labs\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.pdb
+D:\estudos\ForumZ\ForumZ\ForumZ.Domain\bin\Debug\netcoreapp3.0\ForumZ.Domain.deps.json
+D:\estudos\ForumZ\ForumZ\ForumZ.Domain\bin\Debug\netcoreapp3.0\ForumZ.Domain.dll
+D:\estudos\ForumZ\ForumZ\ForumZ.Domain\bin\Debug\netcoreapp3.0\ForumZ.Domain.pdb
+D:\estudos\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.csproj.AssemblyReference.cache
+D:\estudos\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.AssemblyInfoInputs.cache
+D:\estudos\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.AssemblyInfo.cs
+D:\estudos\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.csproj.CoreCompileInputs.cache
+D:\estudos\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.dll
+D:\estudos\ForumZ\ForumZ\ForumZ.Domain\obj\Debug\netcoreapp3.0\ForumZ.Domain.pdb

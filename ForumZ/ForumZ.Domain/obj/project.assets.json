@@ -1,43 +1,38 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    "net5.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lslima\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Barbara\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj",
+      "projectUniqueName": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj",
       "projectName": "ForumZ.Domain",
-      "projectPath": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj",
-      "packagesPath": "C:\\Users\\lslima\\.nuget\\packages\\",
-      "outputPath": "L:\\Labs\\ForumZ\\ForumZ\\ForumZ.Domain\\obj\\",
+      "projectPath": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Domain\\ForumZ.Domain.csproj",
+      "packagesPath": "C:\\Users\\Barbara\\.nuget\\packages\\",
+      "outputPath": "D:\\estudos\\ForumZ\\ForumZ\\ForumZ.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\lslima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Barbara\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://tfs.viajanet.com.br/tfs/ViajaNet/_packaging/Viajanet.Applications/nuget/v3/index.json": {},
-        "https://tfs.viajanet.com.br/tfs/ViajaNet/_packaging/Viajanet/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -48,7 +43,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.0": {
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
@@ -64,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

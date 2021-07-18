@@ -11,7 +11,7 @@ namespace ForumZ.Api.Configuration
     {
         public static IServiceCollection ResolveDependences(this IServiceCollection services)
         {
-            services.AddScoped<MyDbContext>();
+            services.AddSingleton<MyDbContext>();
 
             return services;
         }

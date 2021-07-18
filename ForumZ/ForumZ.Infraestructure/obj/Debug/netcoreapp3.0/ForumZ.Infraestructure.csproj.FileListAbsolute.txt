@@ -11,3 +11,7 @@ L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infr
 L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infraestructure.pdb
 L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\bin\Debug\netcoreapp3.0\ForumZ.Infraestructure.runtimeconfig.json
 L:\Labs\ForumZ\ForumZ\ForumZ.Infraestructure\bin\Debug\netcoreapp3.0\ForumZ.Infraestructure.runtimeconfig.dev.json
+D:\estudos\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infraestructure.csproj.AssemblyReference.cache
+D:\estudos\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infraestructure.AssemblyInfoInputs.cache
+D:\estudos\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infraestructure.AssemblyInfo.cs
+D:\estudos\ForumZ\ForumZ\ForumZ.Infraestructure\obj\Debug\netcoreapp3.0\ForumZ.Infraestructure.csproj.CoreCompileInputs.cache

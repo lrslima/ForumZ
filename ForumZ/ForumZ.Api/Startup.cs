@@ -1,68 +1,61 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using ForumZ.Api.Configuration;
+using ForumZ.Api.Extensions;
 using ForumZ.Infraestructure.Context;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ForumZ.Api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
-
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public Startup(IHostEnvironment hostEnvironment)
         {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(hostEnvironment.ContentRootPath)
+                .AddJsonFile("appsettings.json", true, true)
+                .AddJsonFile($"appsettings.{hostEnvironment.EnvironmentName}.json", true, true)
+                .AddEnvironmentVariables();
 
-            services.AddDbContext<MyDbContext>(options =>
+            if (hostEnvironment.IsDevelopment())
             {
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
-            });
-
-
-            services.AddAutoMapper(typeof(Startup));
-
-
-            //Código isolado para resolver inejção de dependencias
-            services.ResolveDependences();
-        }
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-
-
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
+                builder.AddUserSecrets<Startup>();
             }
 
-            app.UseHttpsRedirection();
+            Configuration = builder.Build();
+        }
 
-            app.UseRouting();
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddIdentityConfiguration(Configuration);
 
-            app.UseAuthorization();
+            services.AddApiConfiguration();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            services.AddSwaggerConfiguration();
+        }
+
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            app.UseSwaggerConfiguration();
+
+            app.UseApiConfiguration(env);
         }
     }
 }
